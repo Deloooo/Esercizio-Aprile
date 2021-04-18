@@ -7,6 +7,10 @@ Consegnare un progetto che faciliti la creazione di un gruppo di whatsapp:
 
 •	Il numero di thread che andremo ad utilizzare saranno tanti quanti i nomi che l’utente vuole ricercare.
 •	I thread dovranno ricercare per ogni nome inserito dall’utente il corrispettivo numero telefonico.
-•	I dati condivisi conterranno: un vettore di oggetti  contenente JPersone (nome, numero telefonico), una variabile occupato che sarà utilizzata dai thread quando si accede al vettore,
+•	I dati condivisi conterranno: un vettore di oggetti  contenente JPersone (nome, numero telefonico), 
+	una variabile occupato che sarà utilizzata dai thread quando si accede al vettore,i vari set e get e un metodo
+	riempi vettore(che andrà a creare il numerodi coppie scelto dall'utente).
 •	La mutua esclusione è garantita, perché i thread accederanno uno alla volta ai dati condivisi
-•	La sincronizzazione 
+•	La sincronizzazione non è garantita perchè i thread non sono gestiti da semafori che li obbligano ad accedere ai
+	dati condivisi in fila.
+
