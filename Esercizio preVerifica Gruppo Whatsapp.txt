@@ -1,0 +1,12 @@
+Esercizio thread preverifica “Gruppo Whatsapp”
+Consegnare un progetto che faciliti la creazione di un gruppo di whatsapp:
+1.	chiedere all'utente una quantità NUM maggiore di 0 e generare una sequenza di NUM coppie di dati casuali della forma ("PERSONA 1", intero a caso tra 1.000.000.000 e 9.999.999.999)
+2.	chiedere all'utente di inserire una sequenza di nomi ( per esempio PERSONA 3, PERSONA 1, PERSONA 22)
+3.	facendo utilizzo di thread ricercare per ogni nome il numero corrispondente
+4.	il main al termine delle varie ricerche visualizzerà l'elenco dei numeri da inserire nel gruppo
+
+•	Il numero di thread che andremo ad utilizzare saranno tanti quanti i nomi che l’utente vuole ricercare.
+•	I thread dovranno ricercare per ogni nome inserito dall’utente il corrispettivo numero telefonico.
+•	I dati condivisi conterranno: un vettore di oggetti  contenente JPersone (nome, numero telefonico), una variabile occupato che sarà utilizzata dai thread quando si accede al vettore,
+•	La mutua esclusione è garantita, perché i thread accederanno uno alla volta ai dati condivisi
+•	La sincronizzazione 
